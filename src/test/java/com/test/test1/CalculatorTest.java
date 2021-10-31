@@ -10,4 +10,9 @@ public class CalculatorTest {
 
         assertEquals(5, calculator.addTwoNumbers(2, 3));
     }
+    @Test
+    public void isSevenMinusFourEqualsThree(){
+
+        assertEquals(3, calculator.substractTwoNumbers(7, 4));
+    }
 }
