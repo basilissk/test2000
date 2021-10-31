@@ -4,8 +4,10 @@ import static org.junit.Assert.assertEquals;
 import org.junit.*;
 
 public class CalculatorTest {
+    Calculator calculator = new Calculator();
     @Test
     public void isTwoPlusThreeEqualsFive(){
-        assertEquals(5, Calculator.addTwoNumbers(2, 3));
+
+        assertEquals(5, calculator.addTwoNumbers(2, 3));
     }
 }
